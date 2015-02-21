@@ -1,0 +1,642 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"HTMOn",
+				"HTMLonlineClasses"
+			],
+			[
+				"formscD",
+				"formattedHTMLschoolDates"
+			],
+			[
+				"ma",
+				"majors"
+			],
+			[
+				"proje",
+				"projectNumber"
+			],
+			[
+				"formahea",
+				"formattedHTMLheaderName"
+			],
+			[
+				"da",
+				"dates"
+			],
+			[
+				"location",
+				"location"
+			],
+			[
+				"f",
+				"formattedTitle"
+			],
+			[
+				"for",
+				"formattedSkills"
+			],
+			[
+				"formatted",
+				"formattedContact"
+			],
+			[
+				"header",
+				"HTMLheaderName"
+			],
+			[
+				"We",
+				"welcome_message"
+			],
+			[
+				"P",
+				"picture_URL"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/user/Google Drive/Udacity/Project4/frontend-nanodegree-mobile-portfolio/index.html",
+			"settings":
+			{
+				"buffer_size": 5580,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/user/Google Drive/Udacity/Project4/frontend-nanodegree-mobile-portfolio/index2.html",
+			"settings":
+			{
+				"buffer_size": 3217,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"copy atty",
+				"File: Copy as Tag style"
+			],
+			[
+				"copy",
+				"File: Copy as Tag script"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"web",
+				"Web Inspector"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"reload",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"ope",
+				"Gist: Open Gist"
+			],
+			[
+				"creat",
+				"Gist: Create Public Gist"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"gits",
+				"Gist: Create Public Gist"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"g",
+				"Gist: Create Public Gist"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"prefix",
+				"Autoprefix CSS"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"func",
+				"Snippet: Function"
+			],
+			[
+				"function",
+				"Snippet: Anonymous Function"
+			],
+			[
+				"sni htm",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"Snippet: b",
+				"Snippet: bs3-container"
+			],
+			[
+				"font",
+				"ASCII Decorator: Generate Font Test"
+			],
+			[
+				"gener",
+				"ASCII Decorator: Generate Font Test"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"prefs",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"tidy",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/user/Google Drive/Udacity/Project4/frontend-nanodegree-mobile-portfolio",
+		"/C/Users/user/Google Drive/Udacity/Project4/frontend-nanodegree-mobile-portfolio/css"
+	],
+	"file_history":
+	[
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Sublime-JSHint/JSHint.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Test.TODO",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/js/helper.js",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/css/style.css",
+		"/c/Users/user/google drive/udacity/github/version-control/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/index.html",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/html.html",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/js/livereload.js",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/lib/slider/css/style.css",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/lib/slider/js/app.js",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/lib/slider/index.html",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/lib/website/index.html",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/teemptest.css",
+		"/C/Users/user/Google Drive/Coursera/first-site-lesson-27.zip",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/lib/website/css/main.css",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/test/testing.css",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/test.js",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/Javascript-Project.sublime-project",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/swi.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Web Inspector 3/swi.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Web Inspector/Default (Windows).sublime-keymap",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/Fetch.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/c/users/user/appdata/local/temp/gistfile1.txt",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/README.md",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/user/Google Drive/Coursera/Preferences.sublime-settings",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/fontbuilder.txt",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/ASCII Decorator/ASCII Decorator.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/ASCII Decorator.sublime-settings",
+		"/c/users/user/appdata/local/temp/tmp_gs00n.txt",
+		"/c/users/user/appdata/local/temp/tmp8fkn6_.txt",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/user/Google Drive/Coursera/jQuery Sample Site/jQuery Sample Site/app.js",
+		"/C/Users/user/Google Drive/Coursera/jQuery Sample Site/jQuery Sample Site/index.html",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/images/197x148.gif",
+		"/C/Users/user/Google Drive/Udacity/Github/version-control/frontend-nanodegree-resume/images/fry.jpg",
+		"/C/Users/user/Google Drive/Websites/Project 1/css/main.css",
+		"/C/Users/user/Google Drive/Websites/Project 1/index.html",
+		"/c/Users/user/Google Drive/Udacity/Github/version-control/reflections/lesson_1_reflections.txt",
+		"/c/Users/user/google drive/udacity/github/version-control/reflections/lesson_2_reflections.txt",
+		"/c/Users/user/google drive/udacity/github/version-control/reflections/reflections_lesson_3.txt",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/marshmallow.md",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/eating-walls/eating-marshmallows.md",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/sleep/more-sleep/more-sleep.md",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/find-exit/chococopter/chococopter.md",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/find-exit/chococopter/option-1.md",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/find-exit/option-2.md",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/option-3.md",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/sleep/more-sleep/added-option/added-option.md",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/find-exit/chococopter/chococopter",
+		"/c/Users/user/google drive/udacity/github/version-control/create-your-own-adventure/english/sleep/more-sleep/smore-eating/delicious.md",
+		"/c/Users/user/google drive/udacity/github/version-control/asteroids/game.js",
+		"/c/Users/user/google drive/udacity/github/version-control/reflections/recipes/README.md",
+		"/c/Users/user/google drive/udacity/github/version-control/reflections/recipes/cake-recipe.txt",
+		"/c/Users/user/google drive/udacity/github/version-control/reflections/recipes/chili-recipe.txt",
+		"/c/Users/user/google drive/udacity/github/version-control/reflections/recipes/pancakes.txt",
+		"/c/Users/user/google drive/udacity/github/version-control/reflections/recipes/panckaes.txt",
+		"/c/Users/user/google drive/udacity/github/version-control/reflections/relfections_lesson_3.txt",
+		"/C/Users/user/.bash_profile",
+		"/C/Users/user/Google Drive/Websites/Project 1/images/page-mock.png",
+		"/C/Users/user/Google Drive/Websites/Project 1/main.css",
+		"/C/Users/user/Google Drive/framework/test.html",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/chrome.sublime-build",
+		"/C/Users/user/Google Drive/portfolio/toplist/style.css",
+		"/C/Users/user/Google Drive/portfolio/toplist/index.html",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/C++Project.sublime-build",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/C++.sublime-build",
+		"/C/Users/user/Google Drive/Coursera/C++/main.cpp",
+		"/C/Users/user/Google Drive/Coursera/C++/add.cpp",
+		"/C/Users/user/Google Drive/Coursera/C++/test.cc",
+		"/C/Users/user/Google Drive/Coursera/C++/Week2/calcul.cc",
+		"/C/Users/user/Google Drive/First-Site/css/custom.css",
+		"/C/Users/user/Google Drive/First-Site/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bootstrap",
+			"button",
+			"inter",
+			"inName",
+			"%data",
+			"data",
+			"work.",
+			"projects[",
+			"project-ent",
+			"project-",
+			"project",
+			"this",
+			"this.",
+			"one",
+			"six",
+			"cancel",
+			"id",
+			"cobalt",
+			"                        ",
+			"                       ",
+			"                      ",
+			"                     ",
+			"                    ",
+			"                   ",
+			"                  ",
+			"                 ",
+			"                ",
+			"               ",
+			"              ",
+			"             ",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"  <script src=\"js/jQuery.js\"></script>\n",
+			"  the DOM. jQuery is fast and easy to use, but it doesn't do anything\n",
+			"script",
+			"rulers",
+			"		",
+			",\n",
+			"padding",
+			"document",
+			"your code",
+			"mapDiv",
+			"offset",
+			"skills",
+			".",
+			"coin",
+			"color",
+			"this.delayBeforeBullet",
+			"{\n",
+			"/></",
+			"!",
+			"	",
+			"get-in",
+			"user"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/user/Google Drive/Udacity/Project4/frontend-nanodegree-mobile-portfolio/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2615,
+								2615
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/user/Google Drive/Udacity/Project4/frontend-nanodegree-mobile-portfolio/index2.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.figlet_preview":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "/C/Users/user/Google Drive/Udacity/Project4/frontend-nanodegree-mobile-portfolio/project4.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"resume",
+				"js\\resumeBuilder.js"
+			],
+			[
+				"index.html",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 775.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
