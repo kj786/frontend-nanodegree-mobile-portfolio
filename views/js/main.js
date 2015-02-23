@@ -486,7 +486,9 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.querySelectorAll('.mover'),
-      bodyScrollTop = document.body.scrollTop / 1250; //Is a constant value that needs to be calculated only once. Therefore, remove it from for-loop as DOM-look ups are time consuming.
+  //A constant value that needs to be calculated only once. Therefore, remove it from for-loop as DOM-look ups are time consuming.
+      bodyScrollTop = document.body.scrollTop / 1250;
+
   for (var i = 0; i < items.length; i++) {
     var phase = Math.sin(bodyScrollTop + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';

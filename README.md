@@ -1,3 +1,33 @@
+## Udacity Project 4: Website Performance Optimization
+In this project, the students were required to study the fundamentals of the CRP, critical rendering path according to which we had to figure out how to make a few optimizations as follows:
+-1 PageSpeed Insights on index.html has to score 90 or more
+-2 pizzeria.html needs to perform at least at 60 FPS and have a responsive design to it that would not allow the text to flow out of the container when downsizing the screen estate.
+
+For the first part, the main aspect was to async JS that doesn't have any influence on the DOM rendering, to adjust the media tag of print.css to 'print' and to inline style.css directly into the HTML. This last one provided a huge improvement in performance on PageSpeed Insights as the css would not increase the HTML beyond the 14KB treshhold and thus would save on an extra roundtrip. I also minified the images used, especially pizzeria.jpg which was succesfully reduced to 125KB. I also made the judgement call to opt for a resized thumbnail version of the same file by the name pizzeria-tiny.jpg which further reduced the size to 10KB. I achieved this using GimpShop.
+
+For the second part, my 'aha-erlebnis' manifested itself after reading this article: http://www.nczonline.net/blog/2009/02/03/speed-up-your-javascript-part-4/ which made me understand that DOM is extremely slow and should be avoided to be read from and written to unless absolutely necessary, as is clear from following extract:
+
+    Since the DOM is so slow at pretty much everything, it’s very important to cache results that you retrieve from the DOM. This is important for property access that causes reflow, such as offsetWidth, but also important in general. The following, for example, is incredibly inefficient:
+
+    document.getElementById("myDiv").style.left = document.getElementById("myDiv").offsetLeft +
+        document.getElementById("myDiv").offsetWidth + "px";
+    The three calls to getElementById() here are the problem. Accessing the DOM is expensive, and this is three DOM calls to access the exact same element. The code would better be written as such:
+
+    var myDiv = document.getElementById("myDiv");
+    myDiv.style.left = myDiv.offsetLeft + myDiv.offsetWidth + "px";
+    Now the number of total DOM operations has been minimized by removing the redundant calls. Always cache DOM values that are used more than once to avoid a performance penalty.
+
+Thereafter, for the sake of further optimization, I inlined the CSS directly into the HTML and added flex-box to .container so that all it's children will end up stacking on one and another in case of shortage of space due to screen estate. Without doing this, the text ended up flowing out of the container making it appear to be cut off at the black background on the side.
+
+My insight and efficiency of Chrome Dev-Tools after the Udacity Course further improved by watching the following presentation by the same instructor:
+https://www.youtube.com/watch?v=BaneWEqNcpE
+The slides of which are at:
+https://www.igvita.com/slides/2012/devtools-tips-and-tricks/#1
+
+I really liked the cool feature of how the PageSpeeds Insights plugin can not only help you understand the bulky size of an image, but also provides you with an immediate link to the optimized image which would have saved me some work if I werre to have known this earlier.
+
+The general instructions of the project by Udacity follow below:
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
@@ -32,7 +62,7 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
