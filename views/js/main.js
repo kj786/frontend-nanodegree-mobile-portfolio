@@ -1,23 +1,3 @@
-/*
-Welcome to the 60fps project! Your goal is to make Cam's Pizzeria website run
-jank-free at 60 frames per second.
-
-There are two major issues in this code that lead to sub-60fps performance. Can
-you spot and fix both?
-
-
-Built into the code, you'll find a few instances of the User Timing API
-(window.performance), which will be console.log()ing frame rate data into the
-browser console. To learn more about User Timing API, check out:
-http://www.html5rocks.com/en/tutorials/webperformance/usertiming/
-
-Creator:
-Cameron Pittman, Udacity Course Developer
-cameron *at* udacity *dot* com
-*/
-
-// As you may have realized, this website randomly generates pizzas.
-// Here are arrays of all possible pizza ingredients.
 var pizzaIngredients = {};
 pizzaIngredients.meats = [
   "Pepperoni",
@@ -450,6 +430,7 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
+    // DOM lookups are time consuming, thus create variable to refer to document.querySelectorAll(".randomPizzaContainer");
     var pizzaSizes = document.querySelectorAll(".randomPizzaContainer");
     for (var i = 0; i < pizzaSizes.length; i++) {
       var dx = determineDx(pizzaSizes[i], size);
@@ -505,7 +486,7 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.querySelectorAll('.mover'),
-      bodyScrollTop = document.body.scrollTop / 1250;
+      bodyScrollTop = document.body.scrollTop / 1250; //Is a constant value that needs to be calculated only once. Therefore, remove it from for-loop as DOM-look ups are time consuming.
   for (var i = 0; i < items.length; i++) {
     var phase = Math.sin(bodyScrollTop + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
